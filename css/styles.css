@@ -150,14 +150,21 @@ span{
 }
 
 .card{
-  width: 600px;
+  width: 800px;
   background-color:#000f80;
+  margin: 1em;
 }
 .card-img{
   width: 100%;
   height: 550px;
   background-image: url(../img/Captura.PNG);
   background-size: cover;
+}
+.card-img2{
+  width: 100%;
+  height: 550px;
+  background-image: url(../img/Captura22.PNG);
+  background-size:cover;
 }
 .card-title{
   padding: 20px;
@@ -175,4 +182,8 @@ span{
 .projects-links i{
   font-size: 3em;
 
+}
+
+.projects .downloadcv{
+  display: flex;
 }
