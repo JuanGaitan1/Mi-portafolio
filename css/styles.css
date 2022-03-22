@@ -11,6 +11,11 @@ body {
   overflow-x: hidden;
 }
 
+.info-content p{
+font-size: 1.5em;
+
+}
+
 .wrapper,
 .portfolio {
   width: 100vw;
@@ -113,6 +118,11 @@ span{
  padding: 3em;
 }
 
+.about-info p{
+font-size: 1.5em;
+color: 171820
+}
+
 .about-info h2{
   font-size: 2em;
   color: 171820;
@@ -186,4 +196,100 @@ span{
 
 .projects .downloadcv{
   display: flex;
+}
+
+.contact{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5em;
+  background-color: #171820;
+}
+
+.contact-heading h2{
+  font-size: 3em;
+  margin: 5;
+  color: #fff;
+}
+
+
+
+.container-contact{
+  font-size: 2.5em;
+  padding: 3em;
+  margin: 1em;
+
+}
+
+
+.form{
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+  margin-top: 2em;
+}
+
+.form input{
+  padding: 10px 20px;
+  margin-bottom: 1em;
+  background:none;
+  border: none;
+  border-bottom: 1px solid aqua;
+  color: #fff;
+}
+
+.form textarea{
+ height: 150px;
+ background:none;
+ color: #fff;
+ padding: 1.5em;
+ border: 1px solid aqua;
+}
+
+.btn-submit{
+  padding: 10px 20px;
+  margin: 1em;
+  border: none;
+  text-transform: uppercase;
+  background-color: aqua;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 1px 3px 11px -5px rgba(102, 231, 200, .69);
+}
+
+.footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 200px;
+  background-color: #000846;
+}
+
+.footer-content h2{
+  font-size: 3em;
+  color: aqua;
+}
+
+.footer-content h5{
+  font-size: 1.5em;
+  color: aqua;
+}
+
+.sotial-network{
+  display: flex;
+  justify-content: space-evenly;
+  width: 300px;
+  margin-top: 1em;
+}
+
+.sotial-network a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.sotial-network i{
+  font-size: 3em;
 }
